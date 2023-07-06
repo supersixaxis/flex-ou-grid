@@ -13,6 +13,10 @@
     color:#3964E8;
 }
 
+.margin_left {
+    margin-left: 20px;
+  }
+
 .nav_container {
     display: flex;
     justify-content: space-between;
@@ -125,3 +129,75 @@ section {
     grid-column: 2;
     grid-row: 4;
 }
+
+
+  /* -------------------Atelier 4----------------------- */
+
+
+  .service_container {
+    display: flex;
+    justify-content: center;
+  }
+  .service_card{
+    width: 425px;    
+    height: 785px;
+    margin: 20px;
+    background-color: white;
+    border: 4px solid #3A86FF;
+    border-radius: 10px;
+    position: relative;
+  }
+  .service_footer {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-items: baseline;
+    gap: 80px;
+  }
+
+  .service_list ul:hover {
+    background-color: #3A86FF;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .button_service {
+    background-color: #3A86FF;
+    border: 2px solid #3A86FF;
+    border-radius: 5px;
+    margin: 5px;
+    width: 181px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .card_rh {
+    width: 752px;    
+    height: 284px;
+    margin: 20px;
+    background-color: white;
+    border: 4px solid #3A86FF;
+    border-radius: 10px;
+    position: relative;
+  }
+   .mail {
+    position: absolute;
+    right:10px
+  }
+  .hourglass {
+    position: absolute;
+    right:10px
+  }
+  
+  .rh_footer {
+    position: absolute;
+    bottom:20px;
+    right: 30px;
+  }
+ 
+  .delete_button {
+    background-color: #FF7070;
+    border: 2px solid #FF7070;
+  }
+
